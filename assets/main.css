@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #504d4d10;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid rgba(138, 138, 153, 0.399);
+    background-color: rgba(9, 10, 9, 0.091);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header ul li {
+    display: inline;
+    padding-left: 15px;
+    text-transform: uppercase;
+}
+
+a { /*Retirei a decoração de todos os links da página*/
+    text-decoration: none;
+}
+
+section a {
+    color: rgb(164, 48, 48);
+    border: 1px dotted;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#link-sports {
+    color: rgb(18, 181, 37);
+}
+
+#link-economy {
+/* color: rgba(64, 83, 83, 0.788);*/
+    color: rgb(171, 5, 41);
+}
+
+#link-games {
+    color: rgb(151, 40, 221);
+}
+
+#link-tech {
+    color: rgb(48, 107, 195);
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    background-color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;   
+    border-bottom: 3px solid rgba(37, 37, 40, 0.232);
+    border-top: 3px solid rgba(37, 37, 40, 0.232);
+    background-color: rgba(66, 61, 55, 0.237);
+}
+
+img {
+    width: 290px;
+    height: 200px;
+    padding-top: 30px;
+}
+
+.articles {
+    display: flex;
+    height: 560px;
+    align-self: stretch;
+    text-align: justify;
+
+}
+
+article {
+    font-family: verdana;
+    padding: 20px;
+    line-height: 22px;
+    border-right: 3px inset rgba(177, 53, 53, 0.074);
+}
+
+#sports h3 {
+    color: rgb(18, 181, 37);
+}
+
+#economy h3 {
+    color: rgb(171, 5, 41);
+}
+
+#games h3 {
+    color: rgb(151, 40, 221);
+}
+
+#tech h3 {
+    color: rgb(48, 107, 195);
+}
+
+.rodape {
+    height: 40px;
+    background-color: rgba(23, 25, 24, 0.294);
+}
+
+.rodape p {
+    border-top: 2px solid rgba(138, 138, 153, 0.399);
+    padding: 10px 0;
+    text-align: center;
+    font-size: 18px;
+}
