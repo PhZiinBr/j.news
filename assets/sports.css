@@ -1,0 +1,61 @@
+* {
+    font-family: verdana;
+    box-sizing: border-box;
+}
+
+article {
+    border-bottom: 2px solid rgba(138, 138, 153, 0.399);
+    border-top: 2px solid rgba(138, 138, 153, 0.399);
+    margin: 30px 0;
+}
+
+.articles p {
+    line-height: 35px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+time {
+    margin-top: 20px;
+    color: #454040;
+    font-weight: 120;
+    font-size: small;
+}
+
+span {
+    font-weight: bold;
+}
+
+.players span {
+    text-transform: uppercase;
+}
+
+.info p{
+    line-height: normal;
+    margin: 15px;
+}
+
+.players p {
+    margin-top: 30px;
+}
+
+#int {
+    margin-top: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 0 15px 0 15px;
+    background-color: aliceblue;
+}

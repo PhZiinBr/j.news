@@ -5,9 +5,10 @@
 }
 
 body {
-    background-color: #504d4d10;
+    background-color: #fff;
 }
 
+/*---------HEADER--------*/
 header {
     width: 100%;
     height: 50px;
@@ -18,6 +19,10 @@ header {
     align-items: center;
 }
 
+h1 a{
+    color: #000;
+}
+
 header ul li {
     display: inline;
     padding-left: 15px;
@@ -26,13 +31,6 @@ header ul li {
 
 a { /*Retirei a decoração de todos os links da página*/
     text-decoration: none;
-}
-
-section a {
-    color: rgb(164, 48, 48);
-    border: 1px dotted;
-    border-radius: 10px;
-    padding: 5px;
 }
 
 #link-sports {
@@ -50,11 +48,12 @@ section a {
 #link-tech {
     color: rgb(48, 107, 195);
 }
+/*-------HEADER-------*/
 
+/*---------CONTEÚDO--------*/
 .container {
-    margin: 0 auto;
-    width: 1000px;
-    background-color: #ffffff;
+    margin: auto;
+    width: 900px;
 }
 
 h2 {
@@ -62,46 +61,19 @@ h2 {
     padding: 20px;   
     border-bottom: 3px solid rgba(37, 37, 40, 0.232);
     border-top: 3px solid rgba(37, 37, 40, 0.232);
-    background-color: rgba(66, 61, 55, 0.237);
+}
+
+p {
+    text-align: justify;
 }
 
 img {
-    width: 290px;
-    height: 200px;
-    padding-top: 30px;
+    width: 100%;
+    height: 300px;
 }
+/*---------CONTEÚDO---------*/
 
-.articles {
-    display: flex;
-    height: 620px;
-    align-self: stretch;
-    text-align: justify;
-
-}
-
-article {
-    font-family: verdana;
-    padding: 20px;
-    line-height: 22px;
-    border-right: 3px inset rgba(177, 53, 53, 0.074);
-}
-
-#sports h3 {
-    color: rgb(18, 181, 37);
-}
-
-#economy h3 {
-    color: rgb(171, 5, 41);
-}
-
-#games h3 {
-    color: rgb(151, 40, 221);
-}
-
-#tech h3 {
-    color: rgb(48, 107, 195);
-}
-
+/*-----------RODAPÉ -----------*/
 .rodape {
     height: 40px;
     background-color: rgba(23, 25, 24, 0.294);
@@ -113,3 +85,4 @@ article {
     text-align: center;
     font-size: 18px;
 }
+/*----------RODAPÉ------------*/
