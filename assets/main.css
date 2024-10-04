@@ -19,7 +19,7 @@ header {
     border-bottom: 2px solid rgba(138, 138, 153, 0.399);
     background-color: rgba(9, 10, 9, 0.091);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between; /* Corrigido para space-between */
     align-items: center;
     padding: 0 20px;
 }
@@ -36,10 +36,9 @@ header ul li {
     text-transform: uppercase;
 }
 
-a { /*Retirei a decoração de todos os links da página*/
+a {
     text-decoration: none;
 }
-
 
 #link-sports, #sports h2 {
     color: rgb(18, 181, 37);
@@ -90,36 +89,34 @@ h2 {
 
 /* Estilo Global dos Parágrafos */
 p {
-    font-size: 18px; /* Aumenta o tamanho da fonte para melhor legibilidade */
-    line-height: 1.6; /* Ajusta o espaçamento entre linhas para dar mais "respiro" */
-    margin: 20px 0; /* Adiciona espaçamento acima e abaixo dos parágrafos */
-    color: #333; /* Cor de texto suave, mas escura para fácil leitura */
-    text-align: justify; /* Alinha o texto para dar uma aparência mais organizada */
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px 0;
+    color: #333;
+    text-align: justify;
 }
 
 /* Estilos Específicos para as Seções */
-
-
 section h2 {
-    margin-bottom: 20px; /* Espaço entre o título e o conteúdo */
-    font-size: 24px; /* Aumenta o tamanho da fonte dos títulos */
-    color: #222; /* Cor um pouco mais escura para destaque */
-    letter-spacing: 1px; /* Espacamento entre letras */
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #222;
+    letter-spacing: 1px;
 }
 
 /* Background para diferenciar as seções */
 #sports, #economy, #games, #tech {
-    background-color: rgba(230, 230, 250, 0.2); /* Leve cor de fundo para diferenciar as seções */
-    padding: 20px; /* Adiciona espaçamento interno */
-    border-radius: 10px; /* Bordas arredondadas nas seções */
-    margin-bottom: 20px; /* Espaçamento entre as seções */
+    background-color: rgba(230, 230, 250, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 /* Card container (flex layout) */
 .card-container {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centraliza os cards horizontalmente */
+    align-items: center;
     margin: 20px auto;
     width: 100%;
     max-width: 1400px;
@@ -140,7 +137,7 @@ section h2 {
     border-radius: 10px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
     width: 60%; /* Define a largura dos cards em 60% da página */
-    margin: 15px 0; /* Espaçamento entre os cards */
+    margin: 15px 0;
     padding: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center;
