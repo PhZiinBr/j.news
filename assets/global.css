@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
-    background-color: #fff;
+    background-color: #504d4d10;
+    display: flex;
+    flex-direction: column;
 }
 
 /*---------HEADER--------*/
@@ -77,6 +83,7 @@ img {
 .rodape {
     height: 40px;
     background-color: rgba(23, 25, 24, 0.294);
+    margin-top: auto;
 }
 
 .rodape p {
