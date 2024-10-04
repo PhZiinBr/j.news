@@ -1,0 +1,26 @@
+
+/* Footer styles */
+.rodape {
+    background-color: rgba(23, 25, 24, 0.294);
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ajustado para space-between */
+    padding: 0 20px; /* Adicionado padding horizontal */
+}
+
+.rodape p {
+    font-size: 18px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.rodape a {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.rodape img {
+    height: 30px;
+}
