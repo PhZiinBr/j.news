@@ -9,14 +9,21 @@
 </head>
 <body>
     <header>
-        <h1 title="Home"><a href="index.html">J.News</a></h1>
-        <p>
-            <ul id="initial">
-                <li><a id="link-economy" href="economy.html">Economia</a></li>
-                <li><a id="link-games" href="games.html">Games</a></li>
-                <li><a id="link-tech" href="technology.html">Tecnologia</a></li>
-            </ul>
-        </p>
+        <h1><a href="index.html">J.News</a></h1>
+        <div class="menu">
+            <div class="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <ul id="initial">
+                    <li><a id="link-economy" href="economy.html">Economia</a></li>
+                    <li><a id="link-games" href="games.html">Games</a></li>
+                    <li><a id="link-tech" href="technology.html">Tecnologia</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <section class="container">
         <div class="articles">
@@ -74,9 +81,14 @@
     <footer>
         <div  class="rodape">
             <p>&copy; Todos os direitos reservados - 2024</p>
-            <a id="linkedin" href="https://www.linkedin.com/in/jose-junior-" target="_blank"><img src="assets/img/icon/linkedin-icone.png" alt="LinkedIn"></a>
-            <a href="https://github.com/PhZiinBr" target="_blank"><img src="assets/img/icon/github-icone.png" alt="GitHub"></a>
+            <div class="social-icons">
+                <a id="linkedin" href="https://www.linkedin.com/in/jose-junior-" target="_blank"><img src="assets/img/icon/linkedin-icone.png" alt="LinkedIn"></a>
+                <a href="https://github.com/PhZiinBr" target="_blank"><img src="assets/img/icon/github-icone.png" alt="GitHub"></a>
+            </div>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="assets/js/global.js"></script>
 </body>
 </html>

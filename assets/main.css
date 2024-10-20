@@ -14,49 +14,6 @@ body {
     min-height: 100vh;
 }
 
-header {
-    width: 100%;
-    height: 50px;
-    border-bottom: 2px solid rgba(138, 138, 153, 0.399);
-    background-color: rgba(9, 10, 9, 0.091);
-    display: flex;
-    justify-content: space-between; /* Corrigido para space-between */
-    align-items: center;
-    padding: 0 20px;
-}
-
-h1 {
-    display: flex;
-    align-items: center;
-    font-size: 38px;
-}
-
-header ul li {
-    display: inline;
-    padding-left: 15px;
-    text-transform: uppercase;
-}
-
-a {
-    text-decoration: none;
-}
-
-#link-sports, #sports h2 {
-    color: rgb(18, 181, 37);
-}
-
-#link-economy, #economy h2 {
-    color: rgb(171, 5, 41);
-}
-
-#link-games, #games h2 {
-    color: rgb(151, 40, 221);
-}
-
-#link-tech, #tech h2 {
-    color: rgb(48, 107, 195);
-}
-
 .card img {
     max-width: 300px;
     width: 100%;
@@ -71,15 +28,14 @@ h2 {
 #container {
     padding: 0 20px;
 }
-
-/* Footer styles */
+/*
 .rodape {
     background-color: rgba(23, 25, 24, 0.294);
     height: 40px;
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Ajustado para space-between */
-    padding: 0 20px; /* Adicionado padding horizontal */
+    justify-content: space-between;
+    padding: 0 20px;
 }
 
 .rodape p {
@@ -97,6 +53,7 @@ h2 {
 .rodape img {
     height: 30px;
 }
+*/
 
 /* Estilo Global dos Parágrafos */
 p {

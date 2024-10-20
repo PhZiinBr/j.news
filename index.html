@@ -6,18 +6,28 @@
     , initial-scale=1.0">
     <title>J.News</title>
     <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/global.css">
 </head>
 <body> 
     <header>
         <h1>
             J.News
         </h1>
-            <ul id="initial">
-                <li><a id="link-sports" href="#sports">Esportes</a></li>
-                <li><a id="link-economy" href="#economy">Economia</a></li>
-                <li><a id="link-games" href="#games">Games</a></li>
-                <li><a id="link-tech" href="#tech">Tecnologia</a></li>
-            </ul>
+        <div class="menu">
+            <div class="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav>
+                <ul id="initial">
+                    <li><a id="link-sports" href="#sports">Esportes</a></li>
+                    <li><a id="link-economy" href="#economy">Economia</a></li>
+                    <li><a id="link-games" href="#games">Games</a></li>
+                    <li><a id="link-tech" href="#tech">Tecnologia</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <div class="card-container">
             <section id="sports" class="card">
@@ -60,9 +70,14 @@
     <footer>
         <div  class="rodape">
             <p>&copy; Todos os direitos reservados - 2024</p>
+            <div class="social-icons">
                 <a id="linkedin" href="https://www.linkedin.com/in/jose-junior-" target="_blank"><img src="assets/img/icon/linkedin-icone.png" alt="LinkedIn"></a>
                 <a href="https://github.com/PhZiinBr" target="_blank"><img src="assets/img/icon/github-icone.png" alt="GitHub"></a>
+            </div>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="assets/js/global.js"></script>
 </body>
 </html>
